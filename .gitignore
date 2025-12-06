@@ -1,0 +1,36 @@
+# .gitignore
+
+# --- CRITICAL: Ignore large models, data, and results ---
+data_processing/merged_model/
+data_processing/results/
+datasets/
+/datasets/
+__pycache__/
+
+# --- Python ---
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# --- Temporary Files ---
+semgrep_results.json
+*.xlsx
+*.tmp
+*.zip
+*.parquet
+*.csv
+*.log
+
+# --- Large/Unnecessary Files ---
+*.jar
+*.pdf
+dependency-check/
+document.pdf
+phf.py
+debug.py
+scan4.py
+test.py
+test.zip
